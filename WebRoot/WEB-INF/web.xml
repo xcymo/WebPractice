@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <context-param>
+  	
+  	<param-name>Jay</param-name>
+  	<param-value>super-star</param-value>
+  
+  </context-param>
+  <servlet>
+    <servlet-name>servletDemo2</servlet-name>
+    <servlet-class>servletTry.servletDemo2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>servletDemo2</servlet-name>
+    <url-pattern>/sld2</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>servletDemo1</servlet-name>
+    <servlet-class>servletTry.servletDemo1</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>servletlogin</servlet-name>
+    <servlet-class>servletTry.servletlogin</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>servletsuccess</servlet-name>
+    <servlet-class>servletTry.servletsuccess</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>servletDemo3</servlet-name>
+    <servlet-class>servletTry.servletDemo3</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>cookie1</servlet-name>
+    <servlet-class>servletTry.cookie1</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>cookie2</servlet-name>
+    <servlet-class>servletTry.cookie2</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>clearCookie</servlet-name>
+    <servlet-class>servletTry.clearCookie</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>dologin</servlet-name>
+    <servlet-class>servletTry.dologin</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>sessionDemo1</servlet-name>
+    <servlet-class>sessionTry.sessionDemo1</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Store</servlet-name>
+    <servlet-class>sessionTry.Store</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>cartProceed</servlet-name>
+    <servlet-class>sessionTry.cartProceed</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>detail</servlet-name>
+    <servlet-class>sessionTry.detail</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>cart</servlet-name>
+    <servlet-class>sessionTry.cart</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>servletDemo1</servlet-name>
+    <url-pattern>/sld1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>servletlogin</servlet-name>
+    <url-pattern>/servlet/servletlogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>servletsuccess</servlet-name>
+    <url-pattern>/servletsuccess</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>servletDemo3</servlet-name>
+    <url-pattern>/servlet/servletDemo3</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>cookie1</servlet-name>
+    <url-pattern>/servlet/ck1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>cookie2</servlet-name>
+    <url-pattern>/servlet/ck2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>clearCookie</servlet-name>
+    <url-pattern>/servlet/clearck</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>dologin</servlet-name>
+    <url-pattern>/servlet/dologin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>sessionDemo1</servlet-name>
+    <url-pattern>/servlet/sessionDemo1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Store</servlet-name>
+    <url-pattern>/servlet/store</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>cartProceed</servlet-name>
+    <url-pattern>/servlet/cartProceed</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>detail</servlet-name>
+    <url-pattern>/servlet/detail</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>cart</servlet-name>
+    <url-pattern>/servlet/cart</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>1.html</welcome-file>
+  </welcome-file-list>
+</web-app>
